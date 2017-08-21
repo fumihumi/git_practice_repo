@@ -1,0 +1,7 @@
+git init
+	vim git_course_test.txt
+	"edit"
+git add  git_course_test.txt
+git commit -m'test message'
+
+git push
