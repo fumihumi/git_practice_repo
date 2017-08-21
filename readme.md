@@ -1,17 +1,16 @@
 # 本講義の目的
  - gitの概念の理解
- - gitハンズオン
- - gitを使ったチーム開発をするために...
-
+ - gitハンズオン
+ - gitを使ったチーム開発をするために...
 
 ## gitとは
- - 配布資料をつかって説明(内容下記)
+ -  配布資料をつかって説明(内容下記)
 	- 随時質問受付ます
  1. git(使用時の注意)
  2. branch
  3. team開発
  4. どうしたら慣れて行くのか？
-
+ 
 ## git HandsOn
 
 git clone http://github.com/fumihumi/git_course_repo.git
@@ -19,6 +18,7 @@ git clone http://github.com/fumihumi/git_course_repo.git
 browserにてリポジトリの作成
 
 git remote add  "alias" URL
+
 ~git remote add origin git@github.com:fumihumi/"repo_name"~
 
 git remote -v
@@ -39,9 +39,12 @@ git commit -m'test message' (commiting file && message)
 git push (to pushiing remote repos)
 
 1. gitのlocalrepo && remoterepo
+	
+	> 資料
 
 2. workingTree , stagingArea(index),gitDirectory ,Stash,Local&Remote Repository
 
+	> 資料
 
 vim git_course_test.txt (cahges file)
 ```
@@ -67,6 +70,8 @@ git checkout make_indexPage(chenge local branch "master TO make_indexPage")
 
 3. branchの考え方
 
+>  資料
+
 4. conflict
 
 git checkout -b test_conflict(create && checkout branch)
@@ -78,10 +83,8 @@ echo hi!!!!!!!! > hello.txt (edit file)
 git commit -am"commit on master branch"
 git marge test_conflict
 vim hello.txt
-git commit -am "fix conflict"
-
-
-
+git add hello.txt
+git commit -m "fix conflict"
 
 
 その時他のコマンドを知っているともっとgitが便利に使えます。
@@ -96,4 +99,9 @@ git show
 git branch
 git checkout
 ここら辺はよく使いますね
-必要なものは随時紹介します。
+
+git log --oneline --decorate --graph
+
+gitはまだまだ奥が深いです。実際に触って苦しんでいるときに成長します
+
+Let's gït lífè
