@@ -4,7 +4,7 @@
  - gitを使ったチーム開発をするために...
 
 ## [gitとは](https://gyazo.com/c905923f32ca65fe9d1ae4324facd8df)
- -  配布資料をつかって説明(内容下記)
+ - 配布資料をつかって説明(内容下記)
 	- 随時質問受付ます
  1. git(使用時の注意)
  2. branch
@@ -16,6 +16,7 @@
 ## git HandsOn
 
 git clone http://github.com/fumihumi/git_course_repo.git
+
 	//githubにsshkeyを登録している場合はっsshを使ってください
 browserにてリポジトリの作成
 
@@ -24,16 +25,16 @@ browserにてリポジトリの作成
 
 git config --global user.name "<NAME>"
 git config --global user.email "<EMAIL>"
-#gitのusername && email の設定
+ //gitのusername && email の設定
 
-git config --global user.name →ちゃんと表示されていればおk
-git config --global user.email→ちゃんとひょうじされていればおk
+git config --global user.name  ->ちゃんと表示されていればおk
+git config --global user.email ->ちゃんとひょうじされていればおk
 
 ```
 
 git init #ローカルのgitリポジトリ作成
 
-git remote add  "alias" URL (remote repo の登録)
+git remote add  "alias" URL (remote repo の登録)
 
 ~git remote add origin git@github.com:fumihumi/"repo_name"~
 
@@ -55,7 +56,7 @@ git push (to pushiing remote repos)
 
 1. [git とは](http://qiita.com/TKR/items/f27932612a2209a0746b)
 
-	> https://gyazo.com/169fe427d8a1a49b06dafd69ac0f0a98
+	> https://gyazo.com/169fe427d8a1a49b06dafd69ac0f0a98
 
 	> https://gyazo.com/7e39a83be46e09f1c249bcfedabf6ab8
 
@@ -127,11 +128,11 @@ git log --oneline --decorate --graph
 
 [GIT CHEAT SHEET](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
-gitはまだまだ奥が深いです。実際に触って苦しんでいるときに成長します
+gitはまだまだ奥が深いです。実際に触って苦しんでいるときに成長します
 
 Let's gït lífè
 
-readmeにおける画像出展
+readmeにおける画像出展
 
 [TKRさんのQiita記事](http://qiita.com/TKR/items/f27932612a2209a0746b)
 
