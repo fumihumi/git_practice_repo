@@ -1,7 +1,27 @@
-git init
-	vim git_course_test.txt
+browserにてリポジトリの作成
+
+git remote add  "alias" URL
+~git remote add origin git@github.com:fumihumi/"repo_name"~
+
+git remote -v
+
+git init #ローカルのgitリポジトリ作成
+	vim git_course_test.txt #管理下にfile作成
 	"edit"
 git add  git_course_test.txt
 git commit -m'test message'
 
+git push
+
+
+	vim git_course_test.txt
+
+git status 
+	#ここでの結果は編集したファイル
+git diff (file_name)
+	# git diff git_course_test.txt
+	#ファイル内の編集内容を表示
+
+git add ~~
+git commit -m "commit message"
 git push
