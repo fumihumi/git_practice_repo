@@ -1,6 +1,8 @@
 huga
 #.gitignore
 
+config/important.conf
+
 
 config/etc/var.js
 config/documents/practice.js
