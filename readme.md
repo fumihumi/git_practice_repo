@@ -10,9 +10,14 @@
  2. branch
  3. team開発
  4. どうしたら慣れて行くのか？
+
 	> https://matome.naver.jp/odai/2136491451473222801
+
 	> [GIT 教材](https://git-scm.com/book/ja/v2)
+
 	> [git 教材](http://k.swd.cc/learnGitBranching-ja/)
+
+
 ## git HandsOn
 
 git clone http://github.com/fumihumi/git_course_repo.git
@@ -96,10 +101,12 @@ git checkout make_indexPage(chenge local branch "master TO make_indexPage")
 4. branchの考え方
 
 > https://gyazo.com/738bdacdc841d663730142f63b54091b
+
 > https://gyazo.com/b5d2b485b2158b70298e9de2c6e7d4b7
 
 5. conflict
 
+```
 git checkout -b test_conflict(create && checkout branch)
 echo hey > hello.txt (edit this file)
 git add hello.txt (staging )
@@ -111,9 +118,10 @@ git marge test_conflict
 vim hello.txt
 git add hello.txt
 git commit -m "fix conflict"
-
+```
 
 その時他のコマンドを知っているともっとgitが便利に使えます。
+```
 git log
 git status
 git stash
@@ -125,6 +133,7 @@ git show
 git branch
 git checkout
 git log --oneline --decorate --graph
+```
 
 [GIT CHEAT SHEET](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
