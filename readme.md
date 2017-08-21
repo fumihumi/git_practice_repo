@@ -11,7 +11,9 @@
  3. team開発
  4. どうしたら慣れて行くのか？
 
-	> https://matome.naver.jp/odai/2136491451473222801
+	> [まとめさいと](https://matome.naver.jp/odai/2136491451473222801)
+
+	> [git入門スライドまとめ](https://mayonez.jp/topic/1452)
 
 	> [GIT 教材](https://git-scm.com/book/ja/v2)
 
