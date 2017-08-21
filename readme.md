@@ -1,7 +1,7 @@
 # 本講義の目的
  - gitの概念の理解
  - gitハンズオン
- - gitを使ったチーム開発をするために... 
+ - gitを使ったチーム開発をするために...
 
 
 ## gitとは
@@ -38,13 +38,14 @@ git commit -m'test message' (commiting file && message)
 
 git push (to pushiing remote repos)
 
-1. gitのlocalrepo && remoterepo 
-2. workingTree , stagingArea(index),gitDirectory ,Stash,Local&Remote Repository 
+1. gitのlocalrepo && remoterepo
+
+2. workingTree , stagingArea(index),gitDirectory ,Stash,Local&Remote Repository
 
 
 vim git_course_test.txt (cahges file)
 ```
-git status 
+git status
 	#ここでの結果は編集したファイル
 git diff (file_name)
 	# git diff git_course_test.txt
@@ -57,7 +58,7 @@ git push
 
 
 基本的には上記のような
-add -> commit -> push 
+add -> commit -> push
 が基本原則。
 
 
@@ -66,11 +67,12 @@ git checkout make_indexPage(chenge local branch "master TO make_indexPage")
 
 3. branchの考え方
 
-4. conflict 
+4. conflict
+
 git checkout -b test_conflict(create && checkout branch)
 echo hey > hello.txt (edit this file)
 git add hello.txt (staging )
-git commit -m "commit on test_conflict branch" (commit ) 
+git commit -m "commit on test_conflict branch" (commit )
 git checkout master(checkout master)
 echo hi!!!!!!!! > hello.txt (edit file)
 git commit -am"commit on master branch"
@@ -85,9 +87,9 @@ git commit -am "fix conflict"
 その時他のコマンドを知っているともっとgitが便利に使えます。
 git log
 git status
-git stash 
+git stash
 git reset
-git rm 
+git rm
 git revert
 git rebase
 git show
@@ -95,4 +97,3 @@ git branch
 git checkout
 ここら辺はよく使いますね
 必要なものは随時紹介します。
-
