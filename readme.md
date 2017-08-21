@@ -76,6 +76,13 @@ git push (to pushiing remote repos)
 
 	> https://gyazo.com/f8f9568bfa450de91f0643500c20e1f7
 
+	> https://gyazo.com/568792e84d71adf72df037bb4f5bddb6
+	> https://gyazo.com/6eb83b12d212cf798920ac53ef710175
+	>https://gyazo.com/14627a3541fba148f40ca0e89f89a3ba
+
+	> https://gyazo.com/4b653d6eb9fcebb4b4dc8116225b4f24
+	> https://gyazo.com/31e0bfc7e630c43baebd24516ef5a35b
+	> https://gyazo.com/85fe1258ba79f505de82bbfa8a47374f
 vim git_course_test.txt (cahges file)
 ```
 git status
@@ -100,10 +107,14 @@ git checkout make_indexPage(chenge local branch "master TO make_indexPage")
 
 4. branchの考え方
 
-> https://gyazo.com/738bdacdc841d663730142f63b54091b
+	> https://gyazo.com/738bdacdc841d663730142f63b54091b
 
-> https://gyazo.com/b5d2b485b2158b70298e9de2c6e7d4b7
+	> https://gyazo.com/b5d2b485b2158b70298e9de2c6e7d4b7
 
+	>https://gyazo.com/60fb4ed35d1cd7cf58ac09a57c9122ea
+	>https://gyazo.com/d7b87617b456a20075c8237ff59c2d05
+	>https://gyazo.com/39276da850758f04fd0d1ffe8b882fcc
+s
 5. conflict
 
 ```
@@ -152,3 +163,7 @@ readmeにおける画像出展
 [A successful Git branching model（翻訳版）](http://keijinsonyaban.blogspot.jp/2010/10/a-successful-git-branching-model.html)
 
 [こっそり始めるGit／GitHub超入門（終）](http://www.atmarkit.co.jp/ait/articles/1708/01/news015.html)
+
+[はじめようgit](https://www.slideshare.net/techscore/git-27770654)
+
+[いつやるの？git](https://www.slideshare.net/matsukaz/git-28304397)
