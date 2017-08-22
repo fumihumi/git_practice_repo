@@ -71,7 +71,7 @@ git push (to pushiing remote repos)
 
 
 2. gitのlocalrepo && remoterepo
-	
+
 	> https://gyazo.com/b481bc94317d24a0e1564ecdc6cf436f
 
 3. workingTree , stagingArea(index),gitDirectory ,Stash,Local&Remote Repository
@@ -154,7 +154,7 @@ gitはまだまだ奥が深いです。実際に触って苦しんでいると�
 
 Let's gït lífè
 
-readmeにおける画像出展
+### readmeにおける画像出展
 
 [TKRさんのQiita記事](http://qiita.com/TKR/items/f27932612a2209a0746b)
 
