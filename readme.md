@@ -24,6 +24,7 @@
 ## git HandsOn
 
 ~git clone http://github.com/fumihumi/git_course_repo.git~
+
 git clone https://github.com/fumihumi/git_practice_repo.git
 
 	//githubにsshkeyを登録している場合はっsshを使ってください
