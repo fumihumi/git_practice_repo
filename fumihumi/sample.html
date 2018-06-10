@@ -18,16 +18,16 @@
     <h1>this is sample html</h1>
 
     <h3>button samples</h3>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
     <button id="js-btn-primary" type="button" class="btn btn-primary">Primary</button>
     <button id="js-btn-secondary" type="button" class="btn btn-secondary">Secondary</button>
+    <button id="js-btn-success" type="button" class="btn btn-success">Success</button>
+    <button id="js-btn-danger" type="button" class="btn btn-danger">Danger</button>
+    <button id="js-btn-warning" type="button" class="btn btn-warning">Warning</button>
+    <button id="js-btn-info" type="button" class="btn btn-info">Info</button>
+    <button id="js-btn-light" type="button" class="btn btn-light">Light</button>
+    <button id="js-btn-dark" type="button" class="btn btn-dark">Dark</button>
     
-    <button type="button" class="btn btn-link">Link</button>
+    <button id="js-btn-link" type="button" class="btn btn-link">Link</button>
   </div>
 
 <!-- script -->
@@ -36,11 +36,17 @@
     function clickBtn(e){
       alert(e.currentTarget.id);
     }
-    var btnPrimary = document.getElementById('js-btn-primary');
-    btnPrimary.addEventListener('click', clickBtn);
+    //var btnPrimary = document.getElementById('js-btn-primary');
+    //btnPrimary.addEventListener('click', clickBtn);
 
-    var btnSecondary = document.getElementById('js-btn-secondary');
-    btnSecondary.addEventListener('click', clickBtn);
+    // var btnSecondary = document.getElementById('js-btn-secondary');
+    // btnSecondary.addEventListener('click', clickBtn);
+    
+    //btnのクラスがついてるのを取得
+    var btns = document.getElementsByClassName('btn');
+    for (var i = 0; i < btns.length; i++){
+      btns[i].addEventListener('click', clickBtn);
+    }
   </script>
 </body>
 </html>
