@@ -485,6 +485,6 @@ git log --oneline --decorate --graph
 
 [こっそり始めるGit／GitHub超入門（終）](http://www.atmarkit.co.jp/ait/articles/1708/01/news015.html)
 
-[はじめようgit](https://www.slideshare.net/techscore/git-27770654)
+[はじめようgit](https://www.slideshare.net/techscore/git-27770654)
 
 [いつやるの？git](https://www.slideshare.net/matsukaz/git-28304397)
