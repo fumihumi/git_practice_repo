@@ -1,2 +1,0 @@
-this file is text file
-file name is huga.txt
