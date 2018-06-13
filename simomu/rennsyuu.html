@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<b<head>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,23 +15,49 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container">
-    <h1>this is sample html</h1>
-
-    <h3>button samples</h3>
-    <button id="js-btn-primary" type="button" class="btn btn-primary">Primary</button>
-    <button id="js-btn-secondary" type="button" class="btn btn-secondary">Secondary</button>
-    <button id="js-btn-success" type="button" class="btn btn-success">Success</button>
-    <button id="js-btn-danger" type="button" class="btn btn-danger">Danger</button>
-    <button id="js-btn-warning" type="button" class="btn btn-warning">Warning</button>
-    <button id="js-btn-info" type="button" class="btn btn-info">Info</button>
-    <button id="js-btn-light" type="button" class="btn btn-light">Light</button>
-    <button id="js-btn-dark" type="button" class="btn btn-dark">Dark</button>
+    <div class="container">
+        <h1>this is sample html</h1>
     
-    <button id="js-btn-link" type="button" class="btn btn-link">Link</button>
-  </div>
+        <h3>button samples</h3>
+        <button id="js-btn-primary" type="button" class="btn btn-primary">Primary</button>
+        <button id="js-btn-secondary" type="button" class="btn btn-secondary">Secondary</button>
+        <button id="js-btn-success" type="button" class="btn btn-success">Success</button>
+        <button id="js-btn-danger" type="button" class="btn btn-danger">Danger</button>
+        <button id="js-btn-warning" type="button" class="btn btn-warning">Warning</button>
+        <button id="js-btn-info" type="button" class="btn btn-info">Info</button>
+        <button id="js-btn-light" type="button" class="btn btn-light">Light</button>
+        <button id="js-btn-dark" type="button" class="btn btn-dark">Dark</button>
+        
+        <button id="js-btn-link" type="button" class="btn btn-link">Link</button>
+    </div>
+    <script>
+        //buttonクリックした時の関数
+        function clickBtn(e){
+          alert(e.currentTarget.id);
+        }
+    
+        var btnPrimary = document.getElementById('js-btn-primary');
+        btnPrimary.addEventListener('click', clickBtn);
+    
+        var btnSecondary = document.getElementById('js-btn-secondary');
+        btnSecondary.addEventListener('click', clickBtn);
+        
+        //btnのクラスがついてるのを取得
+        // var btns = document.getElementsByClassName('btn');
+        // for (var i = 0; i < btns.length; i++){
+        //   btns[i].addEventListener('click', clickBtn);
+        // }
+        // for読みにくくない？？？？？？？？？？
+        
+        // let btns = document.querySelectorAll('.btn');
+        // btns.forEach(e =>  e.addEventListener('click', clickBtn) );
+        
+        //変数いらないか。
+        //document.querySelectorAll('.btn').forEach( e => e.addEventListener('click', clickBtn));
+    
+      </script>
+      
 </body>
-
 
   
 </html>
