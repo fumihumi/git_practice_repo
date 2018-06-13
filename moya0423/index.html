@@ -29,9 +29,9 @@
                 
                 <button id="js-btn-link" type="button" class="btn btn-link">Link</button>
               </div>
-              <!-- script -->
+              script
   <script>
-        //buttonクリックした時の関数
+        
         function clickBtn(e){
           alert(e.currentTarget.id);
         }
@@ -42,18 +42,13 @@
         var btnSecondary = document.getElementById('js-btn-secondary');
         btnSecondary.addEventListener('click', clickBtn);
         
-        //btnのクラスがついてるのを取得
-        // var btns = document.getElementsByClassName('btn');
-        // for (var i = 0; i < btns.length; i++){
-        //   btns[i].addEventListener('click', clickBtn);
-        // }
-        // for読みにくくない？？？？？？？？？？
-        
-        // let btns = document.querySelectorAll('.btn');
-        // btns.forEach(e =>  e.addEventListener('click', clickBtn) );
-        
-        //変数いらないか。
-        //document.querySelectorAll('.btn').forEach( e => e.addEventListener('click', clickBtn));
+        var btns = document.getElementsByClassName('btn');
+         for (var i = 0; i < btns.length; i++){
+           btns[i].addEventListener('click', clickBtn);
+         }
+         let btns = document.querySelectorAll('.btn');
+         btns.forEach(e =>  e.addEventListener('click', clickBtn) );
+        document.querySelectorAll('.btn').forEach( e => e.addEventListener('click', clickBtn));
     
       </script>
 </body>
