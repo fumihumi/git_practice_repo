@@ -32,7 +32,6 @@
     <button id="js-btn-info" type="button" class="btn btn-info">Info</button>
     <button id="js-btn-light" type="button" class="btn btn-light">Light</button>
     <button id="js-btn-dark" type="button" class="btn btn-dark">Dark</button>
-
     <button id="js-btn-link" type="button" class="btn btn-link">Link</button>
   </div>
 
@@ -43,24 +42,7 @@
       alert(e.currentTarget.id);
     }
 
-    var btnPrimary = document.getElementById('js-btn-primary');
-    btnPrimary.addEventListener('click', clickBtn);
-
-    var btnSecondary = document.getElementById('js-btn-secondary');
-    btnSecondary.addEventListener('click', clickBtn);
-
-    //btnのクラスがついてるのを取得
-    // var btns = document.getElementsByClassName('btn');
-    // for (var i = 0; i < btns.length; i++){
-    //   btns[i].addEventListener('click', clickBtn);
-    // }
-    // for読みにくくない？？？？？？？？？？
-
-    // let btns = document.querySelectorAll('.btn');
-    // btns.forEach(e =>  e.addEventListener('click', clickBtn) );
-
-    //変数いらないか。
-    //document.querySelectorAll('.btn').forEach( e => e.addEventListener('click', clickBtn));
+    document.querySelectorAll(".btn").forEach(e => e.addEventListener("click", clickBtn));
   </script>
 </body>
 
