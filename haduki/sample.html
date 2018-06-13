@@ -22,8 +22,8 @@
 <body>
   <div class="container">
     <h1>this is sample html</h1>
-
     <h3>button samples</h3>
+
     <button id="js-btn-primary" type="button" class="btn btn-primary">Primary</button>
     <button id="js-btn-secondary" type="button" class="btn btn-secondary">Secondary</button>
     <button id="js-btn-success" type="button" class="btn btn-success">Success</button>
@@ -35,14 +35,14 @@
     <button id="js-btn-link" type="button" class="btn btn-link">Link</button>
   </div>
 
-  <!-- script -->
   <script>
-    //buttonクリックした時の関数
     function clickBtn(e) {
       alert(e.currentTarget.id);
     }
 
-    document.querySelectorAll(".btn").forEach(e => e.addEventListener("click", clickBtn));
+    document.querySelectorAll('.btn').forEach(function () {
+      e.addEventListener('click', clickBtn);
+    });
   </script>
 </body>
 
