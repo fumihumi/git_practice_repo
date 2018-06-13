@@ -29,6 +29,21 @@
       
       <button id="js-btn-link" type="button" class="btn btn-link">Link</button>
     </div>
+
+    <!-- script -->
+  <script>
+    //buttonクリックした時の関数
+    function clickBtn(e){
+      alert(e.currentTarget.id);
+    }
+
+    var btnPrimary = document.getElementById('js-btn-primary');
+    btnPrimary.addEventListener('click', clickBtn);
+
+    var btnSecondary = document.getElementById('js-btn-secondary');
+    btnSecondary.addEventListener('click', clickBtn);
+
+  </script>
   </body>
-  
+
 </html>
