@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="leftText"><input type="text" id="rightText"><button onclick="hikaku()">HKAKU</button>
+    <script>
+        function hikaku(
+
+        ) {
+            var a = document.getElementById("leftText").value;
+            var b = document.getElementById("rightText").value;
+            if (a == b) {
+                alert("True");
+            } else {
+                alert("False");
+            }
+        }
+    </script>
+</body>
+
+</html>
